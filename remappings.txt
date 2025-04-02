@@ -1,0 +1,2 @@
+hardhat/=node_modules/hardhat/
+@wormhole-solidity-sdk/=lib/wormhole-solidity-sdk/src/

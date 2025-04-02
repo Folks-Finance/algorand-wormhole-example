@@ -1,0 +1,11 @@
+[profile.default]
+solc_version = '0.8.28'
+src = 'evm/contracts'
+out = 'evm/out'
+libs = ['node_modules', 'lib']
+test = 'evm/test'
+cache_path = 'evm/cache_forge'
+evm_version = 'paris'
+optimizer = true
+optimizer_runs = 200
+ignored_error_codes = []

@@ -1,0 +1,34 @@
+#pragma version 6
+int TMPL_ADDR_IDX 
+pop
+byte TMPL_EMITTER_ID
+pop
+txn TypeEnum
+int appl
+==
+assert
+txn OnCompletion
+int OptIn
+==
+assert
+txn ApplicationID
+int TMPL_APP_ID
+==
+assert
+txn RekeyTo
+byte TMPL_APP_ADDRESS
+==
+assert
+txn Fee
+pushint 0
+==
+assert
+txn CloseRemainderTo
+global ZeroAddress
+==
+assert
+txn AssetCloseTo
+global ZeroAddress
+==
+assert
+int 1
